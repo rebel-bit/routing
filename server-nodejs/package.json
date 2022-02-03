@@ -1,0 +1,22 @@
+{
+  "name": "belajar_nodejs",
+  "version": "1.0.0",
+  "description": "was here 1337",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "piye": "echo \"piye kabare cuk\"",
+    "app": "node app js"
+  },
+  "keywords": [
+    "was",
+    "here",
+    "1337"
+  ],
+  "author": "anon7",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {}
+}

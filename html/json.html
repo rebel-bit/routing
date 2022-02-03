@@ -1,0 +1,38 @@
+<!--<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Create a JSON string from a JavaScript object.</h2>
+    <p id="demo"></p>
+
+    <script>
+      const object = {
+        name: "Faza",
+        umur: 17,
+        kota: "Semarang",
+        Hobi: "Mencari celah",
+      };
+
+      const myJSONKOK = JSON.stringify(object);
+      document.getElementById("demo").innerHTML = myJSONKOK;
+    </script>
+  </body>
+</html>-->
+
+<script>
+  const person = {
+    firstname: "Washere1337",
+    middleName: "Y",
+    lastName: "Muhamd faza",
+    addres: {
+      country: "Indonesia",
+      city: "Semarang",
+    },
+    hobbies: ["Coding", "Mencari celah", "Penetrastion Testing"],
+  };
+
+  const json = JSON.stringify(person);
+  console.info(json);
+
+  const jsonObject = JSON.parse(json);
+  console.info(jsonObject);
+</script>

@@ -1,0 +1,40 @@
+<script>
+  // membuat array
+  var nama = ("Muhamad", "faza", "akbar", "maulana");
+  // mengambil radio
+  document.write(nama[1]);
+</script>
+
+<script>
+  let text = "";
+  const name = ["Muhamdd", "faza", "akbar"];
+  name.forEach(myFunction);
+
+  console.info(text);
+
+  function myFunction(item, index) {
+    text += index + ": " + item + "<br>";
+  }
+</script>
+<script>
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  fruits.shift();
+
+  console.info(fruits);
+</script>
+<script>
+  const fruit = ["Banana", "Orange", "Apple", "Mango"];
+  fruits.push("Kiwi");
+  console.log(fruit);
+</script>
+<p id="demo"></p>
+
+<script>
+  const ages = [32, 33, 16, 40, 86, 98, 54];
+
+  document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+  function checkAdult(age) {
+    return age >= 18;
+  }
+</script>
